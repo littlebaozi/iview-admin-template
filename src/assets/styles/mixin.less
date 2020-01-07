@@ -1,0 +1,12 @@
+.clearfix() {
+  *zoom: 1;             /* for IE 6/7 */
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;     /* for Opera */
+  }
+  &:after {
+    clear: both;
+  }
+}
