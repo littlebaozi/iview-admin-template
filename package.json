@@ -5,9 +5,9 @@
   "author": "fj",
   "scripts": {
     "dev": "vue-cli-service serve --open",
-    "dev:mock": "vue-cli-service serve --open --mode mock",
+    "mock": "vue-cli-service serve --open --mode mock",
     "build": "vue-cli-service build",
-    "build:stage": "vue-cli-service build --mode staging",
+    "stage": "vue-cli-service build --mode staging",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint"

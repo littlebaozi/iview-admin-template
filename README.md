@@ -4,11 +4,6 @@
     </a>
 </p>
 
-<h1>
-iView Admin
-    <h3>Vue.js 2.0 admin management system template based on iView.</h3>
-</h1>
-
 [![](https://img.shields.io/github/release/iview/iview-admin.svg)](https://github.com/iview/iview-admin/releases)
 [![](https://img.shields.io/travis/iview/iview-admin.svg?style=flat-square)](https://travis-ci.org/iview/iview-admin)
 [![vue](https://img.shields.io/badge/vue-2.5.17-brightgreen.svg?style=flat-square)](https://github.com/vuejs/vue)
@@ -25,64 +20,40 @@ iView Admin is a front-end management background integration solution. It based 
 
 ![image](https://file.iviewui.com/admin-dist/admin-preview.png)
 
-## Features
 
-- Login / Logout
-- Permission Authentication
-    - A list of filters
-    - Permission to switch
-- i18n
-- Components
-    - Rich Text Editor
-    - Markdown Editor
-    - City Cascader
-    - Photos preview and edit
-    - Draggable list
-    - File upload
-    - Digital gradient
-    - split-pane
-- Form
-    - The article published
-    - Workflow
-- Table
-    - Drag-and-drop sort
-    - Searchable form
-    - Table export data
-        - Export to Csv file
-        - Export to Xls file
-    - Table to picture
-- Error Page
-    - 403
-    - 404
-    - 500
-- Router
-    - Dynamic routing
-    - With reference page
-- Theme
-- Shrink the sidebar
-- Tag navigation
-- Breadcrumb navigation
-- Full screen / exit full screen
-- Lock screen
-- The message center
-- Personal center
 
 ## Getting started
 ```bush
-# clone the project
-git clone https://github.com/iview/iview-admin.git
-
-// install dependencies
+// 安装依赖
 npm install
+// or
+yarn
 
-// develop
+// 开发版本
 npm run dev
 ```
 
-## Build
+* mock开发
+```bush
+npm run mock
+```
+
+* 预发布 测试用
+```bush
+npm run stage
+```
+
+* 发布版本
 ```bush
 npm run build
 ```
+
+## 开发环境配置 
+* 修改API地址
+修改各个`.env`文件中的`VUE_APP_API`
+
+* 修改标题后缀
+修改各个`.env`文件中的`VUE_APP_TITLE`
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
