@@ -2,7 +2,7 @@
   <div class="login">
     <div class="login-con">
       <div class="login-cover">
-        {{title}}
+        {{$config.title}}
       </div>
  
       <div class="form-con">
@@ -17,11 +17,6 @@
 import LoginForm from './login-form'
 import { mapActions } from 'vuex'
 export default {
-  data () {
-    return {
-      title: process.env.VUE_APP_TITLE
-    }
-  },
   components: {
     LoginForm
   },

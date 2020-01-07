@@ -15,7 +15,7 @@ import '@/assets/icons/iconfont.css'
 import TreeTable from 'tree-table-vue'
 // 实际打包时应该不引入mock
 /* eslint-disable */
-if (process.env.VUE_APP_API_MODE === 'mock') require('@/mock')
+if (process.env.VUE_APP_MODE === 'MOCK') require('@/mock')
 
 Vue.use(iView, {
   i18n: (key, value) => i18n.t(key, value)
