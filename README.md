@@ -53,7 +53,7 @@ npm run build
 修改各个`.env`文件中的`VUE_APP_API`
 
 * 修改标题后缀
-修改各个`.env`文件中的`VUE_APP_TITLE`
+修改各个`.env`文件中的`VUE_APP_MODE`
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
